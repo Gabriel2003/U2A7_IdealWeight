@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Gabriel Hurtado
+ * April 6th, 2018
+ * This program is called " The ideal weight calculator" a program that will help users
+ * to enter their height, and once done, the program will display the ideal weight of the user(s). 
  */
 
 package BMI;
@@ -180,7 +181,7 @@ public class Calculator extends javax.swing.JFrame {
        heightmeters = Double.parseDouble(heightInput.getText());
        
 
-// CAlculating the weight of the person according to the measure system selected: 
+    // Calculating the weight of the person according to the measure system selected: 
       
      
 if (metricCheckBox.isSelected()){
